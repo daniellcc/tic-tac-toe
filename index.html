@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>la vieja</title>
+	<style>
+		*{
+			box-sizing: border-box;
+			padding: 0;
+			margin: 0;
+		}
+		body{
+			background-color: #171717;
+			height: 100vh
+		}
+		.game__container{
+			position: absolute;
+			top: 20%;
+			left: 30%;
+			height: 300px;
+			width: 300px;
+			background-color: #2A2A2A;
+			border-color: #000000
+		}
+		.game__title{
+			font-family: sans-serif;
+			font-size: 30px;
+			color: white;
+		}
+		.box{
+			cursor: pointer;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<table class="game__container" cellspacing="0" border="2px">
+		<caption class="game__title">Tic Tac Toe</caption>
+		<tr>
+			<td id="1" class="box"></td>
+			<td id="2" class="box"></td>
+			<td id="3" class="box"></td>
+		</tr>
+		<tr>
+			<td id="4" class="box"></td>
+			<td id="5" class="box"></td>
+			<td id="6" class="box"></td>
+		</tr>
+		<tr>
+			<td id="7" class="box"></td>
+			<td id="8" class="box"></td>
+			<td id="9" class="box"></td>
+		</tr>
+	</table>
+
+
+	<script src="laVieja.js"></script>
+</body>
+</html>
