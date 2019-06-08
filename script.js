@@ -36,7 +36,7 @@ const draw = () => {
 const winnerPatterns = () => {    // combinations for win
 
 	/* loops over the player[0] and player[1] searching if in the current array
-	 are 1,2 and 3, indifferent of the order */
+	 are any valid combination, indifferent of the order */
 
 	data.player.forEach((el, i) => { 
 		if((data.player[i].includes(1) && data.player[i].includes(2) && data.player[i].includes(3))
